@@ -4,7 +4,7 @@ from scapy.all import sniff, IP, TCP, UDP, Raw
 # Variable to store the number of packets
 packet_count = 0
 
-# Define the IDS function
+# Define the function
 def packet_callback(packet):
     global packet_count
     packet_count += 1
@@ -55,6 +55,6 @@ def packet_callback(packet):
         print("-" * 50)
 
 # Sniff packets and analyze them
-print("Starting IDS...")
+print("Starting Network Packet Analyzer...")
 sniff(prn=packet_callback, store=0, count=500)
 print(f"Total number of packets analyzed: {packet_count}")
