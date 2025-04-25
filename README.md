@@ -13,17 +13,29 @@ Features
 4. Clean and structured terminal output
 
 Example Output:-
+
 Packet 1:
+
 Source IP: 192.168.1.10
+
 Destination IP: 93.184.216.34
+
 Source Port: 55672
+
 Destination Port: 80
+
 Packet Size: 60
+
 Packet Type: TCP
+
 TTL: 64
+
 IP Protocol: 6
+
 Payload:
+
 GET /index.html HTTP/1.1
+
 Host: example.com
 
 --------------------------------------------------
