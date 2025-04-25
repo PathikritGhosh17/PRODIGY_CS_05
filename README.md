@@ -11,19 +11,33 @@ Features
  d. Payload contents (decoded if possible)
 3. Counts and logs each packet inspected
 4. Clean and structured terminal output
-🖼 Example Output
+
+Example Output
+
 Packet 1:
+
 Source IP: 192.168.1.10
+
 Destination IP: 93.184.216.34
+
 Source Port: 55672
+
 Destination Port: 80
+
 Packet Size: 60
+
 Packet Type: TCP
+
 TTL: 64
+
 IP Protocol: 6
+
 Payload:
+
 GET /index.html HTTP/1.1
+
 Host: example.com
+
 --------------------------------------------------
 
 This tool is intended for educational and research purposes only. Please ensure you have authorization to sniff traffic on any network you're analyzing. Unauthorized network monitoring may be illegal in your jurisdiction.
